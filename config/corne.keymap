@@ -14,31 +14,31 @@
             label = "ä";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp U>, <&macro_tap &kp 0>, <&macro_tap &kp 0>, <&macro_tap &kp E4>;
+            bindings = <&macro_tap &kp E4>; // 0xE4 ist der Unicode für ä
         };
-        uml_oe: uml_oe {
+            uml_oe: uml_oe {
             label = "ö";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp U>, <&macro_tap &kp 0>, <&macro_tap &kp 0>, <&macro_tap &kp F6>;
+            bindings = <&macro_tap &kp F6>; // 0xF6 für ö
         };
-        uml_ue: uml_ue {
+            uml_ue: uml_ue {
             label = "ü";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp U>, <&macro_tap &kp 0>, <&macro_tap &kp 0>, <&macro_tap &kp FC>;
+            bindings = <&macro_tap &kp FC>; // 0xFC für ü
         };
-        uml_sz: uml_sz {
+            uml_sz: uml_sz {
             label = "ß";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp U>, <&macro_tap &kp 0>, <&macro_tap &kp 0>, <&macro_tap &kp DF>;
+            bindings = <&macro_tap &kp DF>; // 0xDF für ß
         };
-        uml_euro: uml_euro {
+            uml_euro: uml_euro {
             label = "€";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap &kp U>, <&macro_tap &kp 2>, <&macro_tap &kp 0>, <&macro_tap &kp AC>;
+            bindings = <&macro_tap &kp 20AC>; // Unicode für €
         };
         app_terminal: app_terminal {
             label = "Terminal";
